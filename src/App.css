@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +35,126 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid grey; */
+  /* padding: 15px;
+  margin-bottom: 5px; */
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* .kitchen { */
+/* display: flex;
+  flex-direction: row;
+} */
+
+#bed-1 {
+  height: 300px;
+  width: 300px;
+  background-color: #2b7188;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#Full-bath {
+  height: 150px;
+  background-color: #728831;
+  justify-content: center;
+}
+
+#Half-bath {
+  width: 150px;
+  background-color: #728831;
+  justify-content: center;
+}
+
+#living-room {
+  width: 300px;
+  justify-content: center;
+
+  background-color: #c9ac82;
+}
+
+#kitchen {
+  width: 150px;
+
+  height: 100%;
+  display: flex;
+  background-color: #f1a73b;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+}
+
+.appliances {
+  display: flex;
+  justify-self: start;
+
+  flex-direction: row;
+}
+
+.text {
+  display: flex;
+  align-self: center;
+
+  justify-self: center;
+}
+
+.text-holder {
+  position: relative;
+  top: 40%;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#bed-2 {
+  height: 300px;
+  width: 300px;
+  background-color: #2b7188;
+  justify-content: center;
+}
+#bed-3 {
+  height: 300px;
+  width: 300px;
+  background-color: #2b7188;
+  justify-content: center;
+}
+.oven {
+  background-color: #c94716;
+
+  align-self: start;
+  height: 45px;
+  width: 50%;
+  width: 75px;
+  justify-content: center;
+}
+
+.sink {
+  background-color: #935613;
+  height: 45px;
+  align-self: start;
+  width: 75px;
+  justify-content: center;
+}
+
+.black {
+  text-align: center;
+  color: black;
 }
